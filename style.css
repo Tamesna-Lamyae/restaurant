@@ -1,0 +1,32 @@
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #0c0c0c;
+    background-color: #875e17;
+}
+
+.hero {
+    background-image: url('./res/1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    background-color: #0e0e0e;
+    color: #ffffff;
+    background-image: url(./res/DALL·E\ 2024-10-17\ 15.35.19\ -\ A\ vibrant\ and\ artistic\ background\ inspired\ by\ Moroccan\ cuisine\ and\ culture\,\ featuring\ a\ blend\ of\ traditional\ Moroccan\ tile\ patterns\,\ alongside\ images\ .webp);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: rgb(179, 157, 51);
+}

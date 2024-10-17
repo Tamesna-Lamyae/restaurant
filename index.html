@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Atelier de Saveurs - Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Section En-tête -->
+    <header class="bg-dark text-light py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">L'Atelier de Saveurs</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Héros -->
+    <section class="hero" style="background-image: url('./res/1.jpg'); height: 500px; background-size: cover; background-position: center;">
+        <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center text-light">
+            <h1 class="display-4">Bienvenue à L'Atelier de Saveurs</h1>
+            <a href="#menu" class="btn btn-light mt-4">Découvrez notre Menu</a>
+        </div>
+    </section>
+
+    <!-- Section Menu -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nos Plats</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./res/pizza.jpg" class="card-img-top" alt="Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Margherita</h5>
+                            <p class="card-text">Tomates, mozzarella, basilic frais. Un classique revisité.</p>
+                            <p class="card-text"><strong>Prix: 12€</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./res/soup.jpg" class="card-img-top" alt="Soupe">
+                        <div class="card-body">
+                            <h5 class="card-title">Soupe du Chef</h5>
+                            <p class="card-text">Une soupe délicieuse à base de légumes frais de saison.</p>
+                            <p class="card-text"><strong>Prix: 8€</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./res/burger.jpg" class="card-img-top" alt="Hamburger">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamburger Gourmet</h5>
+                            <p class="card-text">Viande de boeuf premium, fromage fondant et sauce maison.</p>
+                            <p class="card-text"><strong>Prix: 15€</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos de nous -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./res/about.jpg" class="img-fluid" alt="À propos de nous">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <h2>À propos de L'Atelier de Saveurs</h2>
+                        <p>Nous vous offrons une expérience gastronomique unique avec une sélection de plats préparés avec soin, dans une ambiance chaleureuse.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contactez-nous</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Nom</label>
+                        <input type="text" class="form-control" id="name" placeholder="Votre nom">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Votre email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Votre message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark btn-block">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2024 L'Atelier de Saveurs. Tous droits réservés.</p>
+        <div class="social-icons">
+            <a href="#" class="text-light mr-3">Facebook</a>
+            <a href="#" class="text-light">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
